@@ -7,6 +7,7 @@
     --light_bg: lightblue;
     --light_head_color: #848c90;
     --dark_secondary_color: #333;
+    /* --bg-color: #171C32; */
 }
 
 
@@ -30,7 +31,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: auto;
+    min-height: 100vh;
     margin: 30px;
     background: var(--light_color);
     display: grid;
@@ -289,6 +290,12 @@ footer a {
     .right-side .interest ul {
         grid-template-columns: repeat(2, 1fr);
     }
+    .link-container {
+        flex-direction: column;
+    }
+    .link-container a{
+        margin: 5px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -307,12 +314,7 @@ footer a {
     .right-side .skills .box {
         grid-template-columns: repeat(1, 1fr);
     }
-    .link-container {
-        flex-direction: column;
-    }
-    .link-container a{
-        margin: 5px;
-    }
+    
 }
 
 
@@ -322,7 +324,7 @@ footer a {
     height: auto;
     padding: 30px;
     background-color: var(--dark_color);
-    color: var(--light_color);
+    color: #2ecc71;
     /* border: 5px solid brown; */
     display: flex;
     justify-content: space-around;
@@ -331,7 +333,7 @@ footer a {
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 0;
-    color: var(--dark_color);
+    /* color: var(--dark_color); */
     transition: all 0.3s;
 }
 
