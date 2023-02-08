@@ -348,7 +348,7 @@ footer a {
 }
 
 [for="resume-select"] {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 10px 0 0 0;
 }
 
@@ -358,5 +358,6 @@ footer a {
     margin: 1rem 0;
     background-color: var(--dark_color);
     font-size: 1em;
-    width: 30rem;
+    width: min(90%, 25rem);
 }
+
