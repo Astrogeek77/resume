@@ -346,3 +346,17 @@ footer a {
 .link-container a:hover {
     color: var(--primary_color);
 }
+
+[for="resume-select"] {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+}
+
+[name="resume-select"]{
+    padding: 0.5em 1em;
+    color: #eee;
+    margin: 1rem 0;
+    background-color: var(--dark_color);
+    font-size: 1em;
+    width: 30rem;
+}
