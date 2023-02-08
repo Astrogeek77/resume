@@ -73,6 +73,7 @@ const resumeContainer1 = document.getElementById('resume-container-1');
 const resumeContainer2 = document.getElementById('resume-container-2');
 const resumeContainer3 = document.getElementById('resume-container-3');
 const resumeContainer4 = document.getElementById('resume-container-4');
+const resumeContainer5 = document.getElementById('resume-container-5');
 const resumeSelector = document.getElementById('resume-select');
 
 resumeSelector.value = resumeContainer1;
@@ -81,6 +82,7 @@ resumeContainer1.style.display = 'block';
 resumeContainer2.style.display = 'none';
 resumeContainer3.style.display = 'none';
 resumeContainer4.style.display = 'none';
+resumeContainer5.style.display = 'none';
 
 resumeSelector.addEventListener('change', () => {
   //   console.log(resumeSelector.value);
@@ -90,20 +92,30 @@ resumeSelector.addEventListener('change', () => {
     resumeContainer2.style.display = 'none';
     resumeContainer3.style.display = 'none';
     resumeContainer4.style.display = 'none';
+    resumeContainer5.style.display = 'none';
   } else if (val == 'resume-2') {
     resumeContainer1.style.display = 'none';
     resumeContainer2.style.display = 'block';
     resumeContainer3.style.display = 'none';
     resumeContainer4.style.display = 'none';
+    resumeContainer5.style.display = 'none';
   } else if (val == 'resume-3') {
     resumeContainer1.style.display = 'none';
     resumeContainer2.style.display = 'none';
     resumeContainer3.style.display = 'block';
     resumeContainer4.style.display = 'none';
+    resumeContainer5.style.display = 'none';
   } else if (val == 'resume-4') {
     resumeContainer1.style.display = 'none';
     resumeContainer2.style.display = 'none';
     resumeContainer3.style.display = 'none';
     resumeContainer4.style.display = 'block';
+    resumeContainer5.style.display = 'none';
+  } else if (val == 'resume-5') {
+    resumeContainer1.style.display = 'none';
+    resumeContainer2.style.display = 'none';
+    resumeContainer3.style.display = 'none';
+    resumeContainer4.style.display = 'none';
+    resumeContainer5.style.display = 'block';
   }
 });
